@@ -1,20 +1,4 @@
-# learning-area
-
-欢迎访问 [MDN 学习区](https://developer.mozilla.org/zh-CN/Learn) Github 仓库中文版。
-
-这里有学习区中展示、讨论的大部分示例代码，本 repo 文件夹结构与网站结构保持一致。
-
-英文版中 [Web 入门](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web) 等示例是单独的 repos，本 repo 一并收录。
-
-以下内容不定期更新，希望你能喜欢。
-
-----
-
-## 汉化目录
-
-### 0. Web 入门
-
-1. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site)
+ 1. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site)
 [代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics) |
 HTML 基础：Mozilla 酷毙了
@@ -216,4 +200,3 @@ HTML 表单示例：URL
 [代码](https://github.com/roy-tian/learning-area/tree/master/html/forms/week-example/index.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Forms) |
 HTML 表单示例：周的示例
-

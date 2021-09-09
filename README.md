@@ -1,18 +1,4 @@
- 1. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics) |
-HTML 基础：Mozilla 酷毙了
-2. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site-styled)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site-styled) 
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/CSS_basics) |
-CSS 基础：Mozilla 酷毙了（样式版）
-3. [示例](https://roy-tian.github.io/learning-area/extras/getting-started-web/beginner-html-site-scripted)
-[代码](https://github.com/roy-tian/learning-area/tree/master/extras/getting-started-web/beginner-html-site-scripted)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics) |
-JavaScript 基础：Mozilla 酷毙了（脚本版）
-
 ### 1. HTML
-
 #### 1.1 HTML 初步
 
 1. [示例](https://roy-tian.github.io/learning-area/html/introduction-to-html/getting-started)

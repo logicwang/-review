@@ -3,16 +3,16 @@
 
 #### 1.1 HTML 初步
 
-1. [示例](https://roy-tian.github.io/learning-area/html/introduction-to-html/getting-started)
-[代码](https://github.com/roy-tian/learning-area/tree/master/html/introduction-to-html/getting-started)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Getting_started) |
+1. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/1.html)
+[代码](https://github.com/logicwang/job-review/tree/master/html/%E8%A1%A8%E5%A4%B4)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
 开始学习 HTML
-2. [示例](https://roy-tian.github.io/learning-area/html/introduction-to-html/the-html-head/css-and-js.html)
-[代码](https://github.com/roy-tian/learning-area/tree/master/html/introduction-to-html/the-html-head/css-and-js.html)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) |
-HTML 元数据
-3. [示例](https://roy-tian.github.io/learning-area/html/introduction-to-html/html-text-formatting/text-complete.html)
-[代码](https://github.com/roy-tian/learning-area/tree/master/html/introduction-to-html/html-text-formatting/text-complete.html)
+2. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/2.html)
+[代码](https://github.com/logicwang/job-review/tree/master/html/%E8%A1%A8%E5%A4%B4)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
+HTML 标签
+3. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/3.html)
+[代码](https://github.com/logicwang/job-review/tree/master/html/%E8%A1%A8%E5%A4%B4)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) |
 HTML 文字处理：菜谱
 4. [示例](https://roy-tian.github.io/learning-area/html/introduction-to-html/advanced-text-formatting/other-semantics.html)

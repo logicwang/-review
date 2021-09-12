@@ -19,3 +19,7 @@ HTML 强调段落内某些字体
 [代码](https://github.com/logicwang/job-review/tree/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
 HTML 中的图片链接
+5. [示例](https://logicwang.github.io/job-review/html/%E8%B6%85%E9%93%BE%E6%8E%A5/1.html)
+[代码](https://github.com/logicwang/job-review/tree/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
+HTML 中的图片链接

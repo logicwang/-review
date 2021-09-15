@@ -47,3 +47,7 @@ HTML 图片链接
 [代码](https://github.com/logicwang/job-review/tree/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) |
 HTML 指向当前目录下的文件
+6. [示例](https://github.com/logicwang/job-review/blob/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5/7.html)
+[代码](https://github.com/logicwang/job-review/tree/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) |
+HTML 指向上级目录

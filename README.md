@@ -62,7 +62,19 @@ HTML 链接
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
 HTML 闭合元素
-2. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
-[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
+2. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/2.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/2.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
 HTML 快引用
+3. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/3.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/3.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 行内引用
+4. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/4.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/4.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 行内引用
+5. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/4.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/4.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 引文

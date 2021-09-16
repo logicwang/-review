@@ -55,3 +55,10 @@ HTML 电子邮件链接
 [代码](https://github.com/logicwang/job-review/tree/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5https://github.com/logicwang/job-review/blob/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5/9.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) |
 HTML 链接
+
+
+#### 1.3 HTML 
+1. [示例](hhttps://logicwang.github.io/job-review/html/%E8%B6%85%E9%93%BE%E6%8E%A5/2.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5/2.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) |
+HTML 闭合元素

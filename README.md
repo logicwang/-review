@@ -58,7 +58,7 @@ HTML 链接
 
 
 #### 1.3 HTML 
-1. [示例](hhttps://logicwang.github.io/job-review/html/%E8%B6%85%E9%93%BE%E6%8E%A5/2.html)
-[代码](https://github.com/logicwang/job-review/blob/master/html/%E8%B6%85%E9%93%BE%E6%8E%A5/2.html)
-[章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) |
+1. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
 HTML 闭合元素

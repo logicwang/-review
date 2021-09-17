@@ -78,3 +78,27 @@ HTML 行内引用
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/4.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
 HTML 引文
+6. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/5.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/5.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 略缩语
+7. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/5.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/6.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 标记联系方式
+8. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/7.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/7.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 上标和下标
+9. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/8.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/8.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 计算机代码
+10. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/9.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/9.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 标记日期和时间
+11. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/10.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/10.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
+HTML 支持日期和时间的其他格式

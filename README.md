@@ -57,7 +57,7 @@ HTML 电子邮件链接
 HTML 链接
 
 
-#### 1.3 HTML 
+#### 1.3 HTML  高阶文字排版
 1. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E5%AD%97%E6%8E%92%E7%89%88/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Advanced_text_formatting) |
@@ -117,4 +117,4 @@ HTML 无语义元素
 3. [示例](https://logicwang.github.io/job-review/html/%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/3.html)
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/3.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) |
-HTML 无语义元素
+HTML 换行与水平分割

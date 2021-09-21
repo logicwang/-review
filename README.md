@@ -136,7 +136,7 @@ css语法
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
 一个css的样式表能包含多种规则
 
-3. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/1.html)
-[代码](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/2.html)
+3. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0css/1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/css%E8%AF%AD%E6%B3%95/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0css/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
 一个css的样式表能包含多种规则

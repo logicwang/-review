@@ -126,7 +126,17 @@ HTML 使用hr元素在文档中间设定水平分割线
 
 ### 2. CSS
 #### 2.1 CSS 初步
-1. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/1.html)
-[代码](https://github.com/logicwang/job-review/blob/master/html/%E8%A1%A8%E5%A4%B4/1.html)
-[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
-开始学习 HTML
+1. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/css%E8%AF%AD%E6%B3%95/1.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
+css语法
+
+2. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/1.html)
+[代码](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/2.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
+一个css的样式表能包含多种规则
+
+3. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/1.html)
+[代码](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/2.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
+一个css的样式表能包含多种规则

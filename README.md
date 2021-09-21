@@ -122,3 +122,11 @@ HTML 换行与水平分割
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E6%96%87%E6%A1%A3%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86/3.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) |
 HTML 使用hr元素在文档中间设定水平分割线
+
+
+### 2. CSS
+#### 2.1 CSS 初步
+1. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/html/%E8%A1%A8%E5%A4%B4/1.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
+开始学习 HTML

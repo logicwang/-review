@@ -153,8 +153,8 @@ css 内联样式
 6. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/4.html)
 [代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/4.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
-css 内联样式
-7. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/4.html)
+css 文本使用css
+7. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/5.html)
 [代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/5.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
-css 内联样式
+css 函数

@@ -161,4 +161,4 @@ css 函数
 8. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/5.html)
 [代码](https://github.com/logicwang/job-review/blob/master/css/%E8%BF%90%E8%A1%8Ccss/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_works) |
-css 函数
+css 添加css到文件中渲染

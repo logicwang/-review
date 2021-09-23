@@ -129,12 +129,32 @@ HTML 使用hr元素在文档中间设定水平分割线
 1. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/1.html)
 [代码](https://github.com/logicwang/job-review/blob/master/css/css%E8%AF%AD%E6%B3%95/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
-css语法
+css css语法
 2. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/1.html)
 [代码](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/2.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
-一个css的样式表能包含多种规则
+css 一个css的样式表能包含多种规则
 3. [示例](https://logicwang.github.io/job-review/css/css%E8%AF%AD%E6%B3%95/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0css/1.html)
 [代码](https://github.com/logicwang/job-review/blob/master/css/css%E8%AF%AD%E6%B3%95/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0css/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/What_is_CSS) |
-添加不同的css样式进入html文档   
+css 添加不同的css样式进入html文档   
+3. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/1.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
+css 外部样式表
+4. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/2.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/2.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
+css 内部样式表
+5. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/3.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/3.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
+css 内联样式
+6. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/4.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/4.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
+css 内联样式
+7. [示例](https://logicwang.github.io/job-review/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/4.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BAcss/5.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_is_structured) |
+css 内联样式

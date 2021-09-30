@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        .tab-container {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 350px;
+            position: relative;
+            background: #fff;
+        }
+        
+        .tab-container .tab-toggle {
+            display: none;
+        }
+        
+        .tab-container .tab-toggle.active+.tab,
+        .tab-container .tab-toggle:checked+.tab {
+            background: #fff;
+            color: #333;
+        }
+        
+        .tab-container .tab.l-b {
+            border-left: 2px solid #181818;
+        }
+        
+        .tab-container .tab {
+            outline: 0;
+            float: left;
+            cursor: pointer;
+            opacity: 1;
+            width: 25%;
+            line-height: 40px;
+            display: block;
+            margin: 0;
+            position: relative;
+            background: #181818;
+            color: #fff;
+            text-align: center;
+            border-top: 2px solid #181818;
+            border-right: 2px solid #181818;
+        }
+        
+        .tab-container .tab-toggle.active~.tab-content-container,
+        .tab-container .tab-toggle:checked~.tab-content-container {
+            height: auto;
+            opacity: 1;
+        }
+        
+        .tab-container .tab-content-container {
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            height: 0;
+            opacity: 0;
+            overflow: hidden;
+            line-height: 22px;
+            background: #fff;
+            position: absolute;
+            top: 42px;
+            padding: 0px 40px 0 20px;
+            border: 2px solid #181818;
+            border-top: 0;
+            box-shadow: 0 5px 5px -5px #333;
+        }
+        
+        .tab-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .tab-container .tab-toggle.active~.tab-content-container .tab-content,
+        .tab-container .tab-toggle:checked~.tab-content-container .tab-content {
+            opacity: 1;
+        }
+        
+        .tab-container .tab-content-container .tab-content {
+            opacity: 0;
+            padding: 15px 0;
+            min-height: 185px;
+            transition: opacity 0.1s ease-in;
+        }
+        
+        .tab-container .arrows {
+            display: block;
+            width: 60px;
+            font-size: 32px;
+            bottom: 10px;
+            right: 0px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="tab-container radio">
+        <li>
+            <input class="tab-toggle" id="tab-1" type="radio" name="toggle" checked="">
+            <label data-title="Tab 1" class="tab l-b" for="tab-1">Tabs</label>
+            <ul class="tab-content-container">
+                <li class="tab-content">
+                    This is a testing text to test the tab content container. Lorem Ipsum dolor sit amet! Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. This is a testing text to test the tab content container. Lorem Ipsum
+                    dolor sit amet!
+                    <div class="arrows">
+                        <label class="back" for="tab-4">‹</label>
+                        <label class="next" for="tab-2">›	</label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="tab-toggle" id="tab-2" type="radio" name="toggle">
+            <label class="tab" for="tab-2">Are</label>
+            <ul class="tab-content-container">
+                <li class="tab-content">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div class="arrows">
+                        <label class="back" for="tab-1">‹</label>
+                        <label class="next" for="tab-3">›	</label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="tab-toggle" id="tab-3" type="radio" name="toggle">
+            <label class="tab" for="tab-3">Pretty</label>
+            <ul class="tab-content-container">
+                <li class="tab-content">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <div class="arrows">
+                        <label class="back" for="tab-2">‹</label>
+                        <label class="next" for="tab-4">›	</label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="tab-toggle" id="tab-4" type="radio" name="toggle">
+            <label class="tab" for="tab-4">Cool</label>
+            <ul class="tab-content-container">
+                <li class="tab-content">
+                    This is the final content for the tab example.
+                    <div class="arrows">
+                        <label class="back" for="tab-3">‹</label>
+                        <label class="next" for="tab-1">›	</label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

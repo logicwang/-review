@@ -162,3 +162,10 @@ css 函数
 [代码](https://github.com/logicwang/job-review/blob/master/css/%E8%BF%90%E8%A1%8Ccss/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_works) |
 css 添加css到文件中渲染
+
+### 3. 练习实例
+#### 3.1 实例
+1. [示例](https://logicwang.github.io/job-review/css/%E8%BF%90%E8%A1%8Ccss/1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/css/%E8%BF%90%E8%A1%8Ccss/1.html)
+[章节](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/First_steps/How_CSS_works) |
+第一个实例

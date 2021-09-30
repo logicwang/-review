@@ -7,54 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>轮播图</title>
     <style>
-        li {
-            list-style: none;
-        }
-        
-        .slider-container {
-            width: 50%;
+        .carousel-container {
+            list-style-type: none;
+            padding: 0;
+            margin: 30px auto;
+            width: 550px;
+            height: 338px;
+            border-radius: 5px;
             position: relative;
-            margin: 0 auto;
+            z-index: 0;
         }
         
-        .slider-item1 {
-            background-image: url(./图片/\ 9.jpeg);
+        .carousel-container li:nth-child(1)>.dot {
+            margin-left: 44.6%;
         }
         
-        .slider-item2 {
-            background-image: url(./图片/\ 13.jpeg);
+        .carousel-container .carousel-toggle:checked~.carousel-content,
+        .carousel-container .carousel-toggle.active~.carousel-content {
+            height: 100%;
+            width: 100%;
         }
         
-        .slider-item3 {
-            background-image: url(./图片/\ 1.jpeg);
-        }
-        
-        .slider-item4 {
-            background-image: url(./图片/\ 11.jpeg);
-        }
-        
-        .slider-item {
-            position: absolute;
-            width: 456px;
-            background-size: 100%;
-            right: 226px;
-            padding-bottom: 63%;
-        }
-        
-        .arrow {
+        .carousel-container .dot {
+            float: left;
             cursor: pointer;
-            background: rgba(0, 0, 0, 0.5);
-            color: rgba(255, 255, 255, 0.5);
-            width: 50px;
-            right: 176px;
-            font-size: 62px;
-            text-align: center;
-            line-height: 330px;
-            position: absolute;
-            height: 410px;
+            opacity: 1;
+            width: 12px;
+            height: 12px;
+            background: rgba(255, 255, 255, 0.5);
+            position: relative;
+            margin-top: 56%;
+            border-radius: 50%;
+            z-index: 999;
+            margin-right: 8px;
+            display: block;
         }
         
-        .arrow1 {
+        .carousel-container .carousel-content {
+            height: 0;
+            overflow: hidden;
+            line-height: 22px;
+            background: #000;
+            position: absolute;
+            top: 0px;
+            border-radius: 5px;
+            box-shadow: 0 5px 5px -5px #333;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .carousel-container .carousel-toggle {
+            display: none;
+        }
+        
+        .carousel-container .arrow.next {
+            left: 0px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .carousel-container .arrow {
             cursor: pointer;
             background: rgba(0, 0, 0, 0.5);
             color: rgba(255, 255, 255, 0.5);
@@ -62,27 +73,63 @@
             width: 50px;
             font-size: 62px;
             text-align: center;
+            bottom: 0;
+            top: 0;
             line-height: 330px;
             position: absolute;
-            height: 410px;
+            z-index: 9999;
+            padding-bottom: 4px;
+            padding-top: 2px;
+            border-radius: 2px;
+            left: 500px;
         }
     </style>
 </head>
 
 <body>
-    <section class="slider-container">
-        <ul class="slider">
-            <li class="slider-item slider-item1"></li>
-            <li class="slider-item slider-item2"></li>
-            <li class="slider-item slider-item3"></li>
-            <li class="slider-item slider-item4"></li>
-            <li class="slider-item slider-item5"></li>
-        </ul>
+    <ul class="carousel-container radio">
         <li>
-            <label class="arrow" for="slide-4">›</label>
-            <label class="arrow1" for="slide-2">‹</label>
+            <input class="carousel-toggle" id="slide-1" type="radio" name="c-toggle" checked="">
+            <label class="dot" for="slide-1"></label>
+            <ul class="carousel-content">
+                <li>
+                    <img src="./图片/ 1.jpeg" style="width:100%;">
+                    <label class="arrow back" for="slide-2">›</label>
+                    <label class="arrow next" for="slide-4">‹</label>
+                </li>
+            </ul>
         </li>
-    </section>
-</body>
+        <li>
+            <input class="carousel-toggle" id="slide-2" type="radio" name="c-toggle">
+            <label class="dot" for="slide-2"></label>
+            <ul class="carousel-content">
+                <li>
+                    <img src="./图片/ 11.jpeg" style="width:100%;">
+                    <label class="arrow back" for="slide-3">›</label>
+                    <label class="arrow next" for="slide-1">‹</label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="carousel-toggle" id="slide-3" type="radio" name="c-toggle">
+            <label class="dot" for="slide-3"></label>
+            <ul class="carousel-content">
+                <li>
+                    <img src="./图片/ 13.jpeg" style="width:100%;">
+                    <label class="arrow back" for="slide-4">›</label>
+                    <label class="arrow next" for="slide-2">‹</label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="carousel-toggle" id="slide-4" type="radio" name="c-toggle">
+            <label class="dot" for="slide-4"></label>
+            <ul class="carousel-content">
+                <img src="./图片/ 9.jpeg" style="width:100%;">
+                <label class="arrow back" for="slide-1">›</label>
+                <label class="arrow next" for="slide-3">‹</label>
+            </ul>
+        </li>
+    </ul>
 
 </html>

@@ -6,10 +6,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        .akl {
+            width: 300px;
+            margin: 60px auto;
+            border: 2px solid #181818;
+            border-radius: 4px;
+            box-shadow: 0 5px 5px -5px #333;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .akl .opl {
+            position: relative;
+            background: #fff;
+        }
+        
+        .akl .opl .w-title {
+            padding-left: 20px;
+            height: 40px;
+            font-size: 18px;
+            line-height: 40px;
+            background: #181818;
+            color: #fff;
+            position: relative;
+            display: block;
+            cursor: pointer;
+        }
+        
+        .akl .opl .w-title :hover {
+            background: #000000;
+        }
+        
+        .akl .opl input {
+            display: none;
+        }
+        
+        .akl.opl input.active~.w-title:after,
+        .akl .opl input:checked~.w-title:after,
+        .akl.opl input:hover~.w-title:after {
+            content: "›";
+            position: absolute;
+            width: 40px;
+            font-size: 32px;
+            right: 0;
+            padding-left: 15px;
+            top: 0;
+            bottom: 0;
+            transform: rotate( 90deg);
+        }
+        
+        .akl.opl input.active~.ol-items,
+        .akl .opl input:checked~.ol-items {
+            height: auto;
+            max-height: 900px;
+        }
+        
+        .akl ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .akl .opl .ol-items li:first-child {
+            padding-top: 10px;
+        }
+        
+        .akl .opl .ol-items li {
+            padding: 5px 20px;
+        }
+    </style>
 </head>
 
 <body>
-
+    <ul class="akl radio">
+        <li class="opl">
+            <input type="radio" name="a-toggle" id="one" checked="">
+            <label for="one" class="w-title">Accordions</label>
+            <ul class="ol-items">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+        </li>
+        <li class="opl">
+            <input id="two" type="radio" name="a-toggle">
+            <label for="two" class="w-title">Condense</label>
+            <ul class="ol-items">
+                <li>Item A</li>
+                <li>Item B</li>
+            </ul>
+        </li>
+        <li class="opl">
+            <input id="tre" type="radio" name="a-toggle">
+            <label for="tre" class="w-title">Stuff</label>
+            <ul class="ol-items">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </li>
+    </ul>
 </body>
 
 </html>

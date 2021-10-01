@@ -13,7 +13,7 @@
             box-sizing: border-box;
         }
         
-        .akl {
+        .a-cont {
             width: 300px;
             margin: 60px auto;
             border: 2px solid #181818;
@@ -23,12 +23,16 @@
             padding: 0;
         }
         
-        .akl .opl {
+        .a-cont .accordion-category {
             position: relative;
             background: #fff;
         }
         
-        .akl .opl .w-title {
+        .a-cont .accordion-category input {
+            display: none;
+        }
+        
+        .a-cont .accordion-category .accordion-title {
             padding-left: 20px;
             height: 40px;
             font-size: 18px;
@@ -40,17 +44,9 @@
             cursor: pointer;
         }
         
-        .akl .opl .w-title :hover {
-            background: #000000;
-        }
-        
-        .akl .opl input {
-            display: none;
-        }
-        
-        .akl.opl input.active~.w-title:after,
-        .akl .opl input:checked~.w-title:after,
-        .akl.opl input:hover~.w-title:after {
+        .a-cont .accordion-category input.active~.accordion-title:after,
+        .a-cont .accordion-category input:checked~.accordion-title:after,
+        .a-cont .accordion-category input:hover~.accordion-title:after {
             content: "›";
             position: absolute;
             width: 40px;
@@ -62,50 +58,54 @@
             transform: rotate( 90deg);
         }
         
-        .akl.opl input.active~.ol-items,
-        .akl .opl input:checked~.ol-items {
+        .a-cont .accordion-category input.active~.accordion-items,
+        .a-cont .accordion-category input:checked~.accordion-items {
             height: auto;
             max-height: 900px;
         }
         
-        .akl ul {
+        .a-cont .accordion-category .accordion-items {
+            max-height: 0;
+            height: 0;
+            margin: 0;
+            overflow: hidden;
+            transition: 0.6s ease-in;
+        }
+        
+        .a-cont ul {
             list-style-type: none;
             padding-left: 0;
         }
         
-        .akl .opl .ol-items li:first-child {
-            padding-top: 10px;
-        }
-        
-        .akl .opl .ol-items li {
-            padding: 5px 20px;
+        .accordion-items li {
+            padding-left: 25px;
         }
     </style>
 </head>
 
 <body>
-    <ul class="akl radio">
-        <li class="opl">
+    <ul class="a-cont radio">
+        <li class="accordion-category">
             <input type="radio" name="a-toggle" id="one" checked="">
-            <label for="one" class="w-title">Accordions</label>
-            <ul class="ol-items">
+            <label for="one" class="accordion-title">Accordions</label>
+            <ul class="accordion-items">
                 <li>Item One</li>
                 <li>Item Two</li>
                 <li>Item Three</li>
             </ul>
         </li>
-        <li class="opl">
+        <li class="accordion-category">
             <input id="two" type="radio" name="a-toggle">
-            <label for="two" class="w-title">Condense</label>
-            <ul class="ol-items">
+            <label for="two" class="accordion-title">Condense</label>
+            <ul class="accordion-items">
                 <li>Item A</li>
                 <li>Item B</li>
             </ul>
         </li>
-        <li class="opl">
+        <li class="accordion-category">
             <input id="tre" type="radio" name="a-toggle">
-            <label for="tre" class="w-title">Stuff</label>
-            <ul class="ol-items">
+            <label for="tre" class="accordion-title">Stuff</label>
+            <ul class="accordion-items">
                 <li>Item 1</li>
                 <li>Item 2</li>
                 <li>Item 3</li>

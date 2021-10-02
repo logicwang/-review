@@ -6,10 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        
+        .read {
+            width: 400px;
+            border: 2px solid #181818;
+            margin: 30px auto;
+            padding: 0px 0 30px;
+            background: white;
+            position: relative;
+        }
+        
+        .read input[type=checkbox] {
+            display: none;
+        }
+        
+        .read p {
+            padding: 0px 10px 0px;
+            margin-bottom: 10px;
+            max-height: 50px;
+            overflow: hidden;
+        }
+        
+        .read label {
+            display: block;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+        }
+        
+        .read label:after {
+            content: "›";
+            color: #999;
+            font-size: 32px;
+            display: block;
+            transform: rotate(90deg);
+        }
+        
+        .read label:hover:after {
+            color: #333;
+        }
+        
+        .read input[type=checkbox] {
+            display: none;
+        }
+        
+        .read input[type=checkbox]:checked~p {
+            max-height: 200px;
+        }
+        
+        .read label {
+            display: block;
+            cursor: pointer;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-
+    <div class="read">
+        <input type="checkbox" id="toggler">
+        <label for="toggler"></label>
+        <p>This is a filler text filler text filler text lorem ipsum dolor sit ametThis is a filler text filler text filler text lorem ipsum dolor sit amet. filler text filler text filler text lorem ipsum dolor sit ametThis is a filler text filler text filler
+            text lorem ipsum dolor sit amet. filler text filler text filler text lorem ipsum dolor sit ametThis is a filler text filler text filler text lorem ipsum dolor sit amet
+        </p>
+    </div>
 </body>
 
 </html>

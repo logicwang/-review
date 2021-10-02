@@ -3,7 +3,7 @@
 
 #### 1.1 HTML 初步
 
-1. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/3.html)
+1. [示例](https://logicwang.github.io/job-review/html/%E8%B6%85%E9%93%BE%E6%8E%A5/2.html)
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E8%A1%A8%E5%A4%B4/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
 开始学习 HTML

@@ -3,7 +3,7 @@
 
 #### 1.1 HTML 初步
 
-1. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/1.html)
+1. [示例](https://logicwang.github.io/job-review/html/%E8%A1%A8%E5%A4%B4/3.html)
 [代码](https://github.com/logicwang/job-review/blob/master/html/%E8%A1%A8%E5%A4%B4/1.html)
 [章节](https://developer.mozilla.org/zh-CN/docs/learn/HTML/Introduction_to_HTML/Getting_started) |
 开始学习 HTML
@@ -173,4 +173,7 @@ css 添加css到文件中渲染
 第二个实例
 3. [示例](https://logicwang.github.io/job-review/demo3.html)
 [代码](https://github.com/logicwang/job-review/blob/master/demo3.html) |
+第三个实例
+4. [示例](https://logicwang.github.io/job-review/demo4.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo4.html) |
 第三个实例

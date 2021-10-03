@@ -166,7 +166,7 @@ css 添加css到文件中渲染
 ### 3. 练习实例
 #### 3.1 实例
 1. [示例](https://logicwang.github.io/job-review/demo1.html)
-[代码](https://github.com/logicwang/job-review/blob/master/demo1.html) |
+[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo1.html) |
 第一个实例
 2. [示例](https://logicwang.github.io/job-review/css/%E8%BF%90%E8%A1%8Ccss/1.html)
 [代码](https://github.com/logicwang/job-review/blob/master/demo2.html) |

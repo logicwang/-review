@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .super {
+            width: 400px;
+            margin: 30px auto;
+            min-height: 200px;
+            position: relative;
+        }
+        
+        .super:after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+        
+        .super .lop {
+            top: 70px;
+            width: 420px;
+            display: none;
+            min-height: 150px;
+            background: #fff;
+            border-radius: 2px;
+            position: absolute;
+            border: 2px solid #181818;
+        }
+        
+        .super .lop .text {
+            padding: 77px;
+        }
+        
+        .super .stp {
+            float: left;
+            width: 33.333%;
+            padding-top: 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .super .stp:after {
+            top: 0px;
+            left: 36%;
+            z-index: 99;
+            content: "";
+            width: 34px;
+            height: 30px;
+            color: #666;
+            padding-top: 7px;
+            background: #fff;
+            border-radius: 12%;
+            position: absolute;
+            border: 2px solid #219150;
+        }
+        
+        .super .stp.one:after {
+            content: "1";
+        }
+        
+        .super .stp.two:after {
+            content: "2";
+        }
+        
+        .super .stp.three:after {
+            content: "3";
+        }
+        
+        .super .stp.one:before {
+            display: none;
+        }
+        
+        .super .stp:before {
+            content: "";
+            width: 85%;
+            height: 4px;
+            top: 20px;
+            left: -42%;
+            display: block;
+            background: #999;
+            position: absolute;
+        }
+        
+        .super label {
+            width: 100px;
+            color: #fff;
+            float: right;
+            cursor: pointer;
+            padding: 10px 0;
+            text-align: center;
+            background: #181818;
+        }
+        
+        .super input[name=tor] {
+            display: none;
+        }
+        
+        .super input[name=tor]:checked+.stp+.lop {
+            display: block;
+        }
+        
+        .super input[name=tor]:checked+.stp:after {
+            background: #219150;
+            color: #fff;
+        }
+        
+        .super input[name=tor]:checked~input:checked+.stp:before {
+            background: #219150;
+        }
+        
+        .super input[name=tor]:checked~input:not(:checked)+.stp {
+            color: #888;
+        }
+        
+        .super input[name=tor]:checked~input:not(:checked)+.stp:after {
+            color: #888;
+            border-color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="super">
+        <input type="checkbox" id="step-1" name="tor" checked="">
+        <div class="stp one">first</div>
+        <div class="lop">
+            <label for="step-2">下一个文段</label>
+            <div class="text">
+                永远别让外人知道你在想什么
+            </div>
+        </div>
+        <input type="checkbox" id="step-2" name="tor">
+        <div class="stp two">second</div>
+        <div class="lop">
+            <label for="step-3">下一个文段</label>
+            <div class="text">
+                如果不能真实表达自己的情绪，那人生岂不是太憋屈。
+            </div>
+        </div>
+        <input type="checkbox" id="step-3" name="tor">
+        <div class="stp three">Go!</div>
+        <div class="lop">
+            <div class="text">
+                违背了自己定下的原则，哪怕只有一次，以后就讲违背更多的原则。
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

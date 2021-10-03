@@ -6,10 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #ccc;
+        }
+        
+        .star {
+            text-align: center;
+            font-size: 0;
+        }
+        
+        .star label {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .star label:after {
+            content: "★";
+            font-size: 46px;
+            color: #999;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        }
+        
+        .star label:hover:after {
+            color: #F89406;
+        }
+        
+        .star input {
+            display: none;
+        }
+        
+        .star #one:checked~label[for=one]:after,
+        .star #two:checked~label[for=two]:after,
+        .star #three:checked~label[for=three]:after,
+        .star #four:checked~label[for=four]:after,
+        .star #five:checked~label[for=five]:after {
+            color: #F89406;
+        }
+        
+        .star-container #two:checked~label[for=one]:after {
+            color: #F89406;
+        }
+        
+        .star #three:checked~label[for=one]:after,
+        .star #three:checked~label[for=two]:after {
+            color: #F89406;
+        }
+        
+        .star #four:checked~label[for=one]:after,
+        .star #four:checked~label[for=two]:after,
+        .star #four:checked~label[for=three]:after {
+            color: #F89406;
+        }
+        
+        .star #five:checked~label[for=one]:after,
+        .star #five:checked~label[for=two]:after,
+        .star #five:checked~label[for=three]:after,
+        .star #five:checked~label[for=four]:after {
+            color: #F89406;
+        }
+    </style>
 </head>
 
 <body>
-
+    <div class="star">
+        <input type="radio" name="starred" id="five">
+        <input type="radio" name="starred" id="four">
+        <input type="radio" name="starred" id="three">
+        <input type="radio" name="starred" id="two">
+        <input type="radio" name="starred" id="one">
+        <label for="one"></label>
+        <label for="two"></label>
+        <label for="three"></label>
+        <label for="four"></label>
+        <label for="five"></label>
+    </div>
 </body>
 
 </html>

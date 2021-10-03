@@ -23,16 +23,16 @@
             padding: 0;
         }
         
-        .a-cont .accordion-category {
+        .a-cont .mca {
             position: relative;
             background: #fff;
         }
         
-        .a-cont .accordion-category input {
+        .a-cont .mca input {
             display: none;
         }
         
-        .a-cont .accordion-category .accordion-title {
+        .a-cont .mca .c-title {
             padding-left: 20px;
             height: 40px;
             font-size: 18px;
@@ -44,9 +44,9 @@
             cursor: pointer;
         }
         
-        .a-cont .accordion-category input.active~.accordion-title:after,
-        .a-cont .accordion-category input:checked~.accordion-title:after,
-        .a-cont .accordion-category input:hover~.accordion-title:after {
+        .a-cont .mca input.active~.c-title:after,
+        .a-cont .mca input:checked~.c-title:after,
+        .a-cont .mca input:hover~.c-title:after {
             content: "›";
             position: absolute;
             width: 40px;
@@ -58,13 +58,13 @@
             transform: rotate( 90deg);
         }
         
-        .a-cont .accordion-category input.active~.accordion-items,
-        .a-cont .accordion-category input:checked~.accordion-items {
+        .a-cont .mca input.active~.b-items,
+        .a-cont .mca input:checked~.b-items {
             height: auto;
             max-height: 900px;
         }
         
-        .a-cont .accordion-category .accordion-items {
+        .a-cont .mca .b-items {
             max-height: 0;
             height: 0;
             margin: 0;
@@ -77,7 +77,7 @@
             padding-left: 0;
         }
         
-        .accordion-items li {
+        .b-items li {
             padding-left: 25px;
         }
     </style>
@@ -85,31 +85,29 @@
 
 <body>
     <ul class="a-cont radio">
-        <li class="accordion-category">
+        <li class="mca">
             <input type="radio" name="a-toggle" id="one" checked="">
-            <label for="one" class="accordion-title">Accordions</label>
-            <ul class="accordion-items">
-                <li>Item One</li>
-                <li>Item Two</li>
-                <li>Item Three</li>
+            <label for="one" class="c-title">电视剧</label>
+            <ul class="b-items">
+                <li>美剧</li>
+                <li>英剧</li>
+                <li>日剧</li>
             </ul>
         </li>
-        <li class="accordion-category">
+        <li class="mca">
             <input id="two" type="radio" name="a-toggle">
-            <label for="two" class="accordion-title">Condense</label>
-            <ul class="accordion-items">
-                <li>Item A</li>
-                <li>Item B</li>
+            <label for="two" class="c-title">电影</label>
+            <ul class="b-items">
+                <li>国产</li>
+                <li>港片</li>
             </ul>
         </li>
-        <li class="accordion-category">
+        <li class="mca">
             <input id="tre" type="radio" name="a-toggle">
-            <label for="tre" class="accordion-title">Stuff</label>
-            <ul class="accordion-items">
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-                <li>Item 4</li>
+            <label for="tre" class="c-title">动漫</label>
+            <ul class="b-items">
+                <li>国漫</li>
+                <li>日漫</li>
             </ul>
         </li>
     </ul>

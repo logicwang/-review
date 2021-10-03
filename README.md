@@ -180,6 +180,9 @@ css 添加css到文件中渲染
 5. [示例](https://logicwang.github.io/job-review/demo5.html)
 [代码](https://github.com/logicwang/job-review/blob/master/demo5.html) |
 第五个实例
-6. [示例](https://logicwang.github.io/job-review/demo5.html)
-[代码](https://github.com/logicwang/job-review/blob/master/demo5.html) |
+6. [示例](https://logicwang.github.io/job-review/demo6.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo6.html) |
 第六个实例
+7. [示例](https://logicwang.github.io/job-review/demo7.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo7.html) |
+第七个实例

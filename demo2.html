@@ -22,12 +22,12 @@
             background: #fff;
         }
         
-        .fu .tab-toggle {
+        .fu .but {
             display: none;
         }
         
-        .fu .tab-toggle.active+.tab,
-        .fu .tab-toggle:checked+.tab {
+        .fu .but.active+.tab,
+        .fu .but:checked+.tab {
             background: #fff;
             color: #333;
         }
@@ -53,13 +53,13 @@
             border-right: 2px solid #181818;
         }
         
-        .fu.tab-toggle.active~.tab-content-container,
-        .fu .tab-toggle:checked~.tab-content-container {
+        .fu .but.active~.iner,
+        .fu .but:checked~.iner {
             height: auto;
             opacity: 1;
         }
         
-        .fu .tab-content-container {
+        .fu .iner {
             border-bottom-left-radius: 4px;
             border-bottom-right-radius: 4px;
             height: 0;
@@ -79,7 +79,7 @@
             list-style-type: none;
         }
         
-        .fu .tab-content-container .tab-content {
+        .fu .iner .con {
             opacity: 1;
             padding: 15px 0;
             min-height: 185px;
@@ -100,54 +100,53 @@
 <body>
     <ul class="fu radio">
         <li>
-            <input class="tab-toggle" id="tab-1" type="radio" name="toggle" checked="">
-            <label data-title="Tab 1" class="tab l-b" for="tab-1">Tabs</label>
-            <ul class="tab-content-container">
-                <li class="tab-content">
-                    This is a testing text to test the tab content container. Lorem Ipsum dolor sit amet! Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. This is a testing text to test the tab content container. Lorem Ipsum
-                    dolor sit amet!
+            <input class="but" id="tab-1" type="radio" name="toggle" checked="">
+            <label data-title="Tab 1" class="tab l-b" for="tab-1">电影</label>
+            <ul class="iner">
+                <li class="con">
+                    电影是一种表演艺术、视觉艺术及听觉艺术，利用胶卷、录像带或数字媒体将影像和声音捕捉起来，再加上后期的编辑工作而成。 电影是人类知道其确切产生时间和成长历程的艺术，是20世纪以来发展迅速、影响巨大的媒体，是政治、经济、文化三位一体的创意产业。它能准确地“还原”现实世界，“展现”虚拟世界，给人以逼真感。
                     <div class="arrows">
                         <label class="back" for="tab-4">‹</label>
-                        <label class="next" for="tab-2">›	</label>
+                        <label class="next" for="tab-2">›</label>
                     </div>
                 </li>
             </ul>
         </li>
         <li>
-            <input class="tab-toggle" id="tab-2" type="radio" name="toggle">
-            <label class="tab" for="tab-2">Are</label>
-            <ul class="tab-content-container">
-                <li class="tab-content">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <input class="but" id="tab-2" type="radio" name="toggle">
+            <label class="tab" for="tab-2">电视剧</label>
+            <ul class="iner">
+                <li class="con">
+                    电视剧（TV play）是一种专为在电视上播映的演剧形式。它兼容电影、戏剧、 文学、音乐、舞蹈、绘画等元素，是一种适应电视广播特点、融合舞台和电影艺术的表现方法而形成的艺术样式。电视剧随着电视广播事业的诞生而发展起来，幕后有一定的推动使一些电视剧网站也孕育而生。 生活中，电视剧的定义已经狭义化，仅指电视剧集系列，不包括其他形式，分单元剧和连续剧，利用电视技术制作并通过电视网放映。
                     <div class="arrows">
                         <label class="back" for="tab-1">‹</label>
-                        <label class="next" for="tab-3">›	</label>
+                        <label class="next" for="tab-3">›</label>
                     </div>
                 </li>
             </ul>
         </li>
         <li>
-            <input class="tab-toggle" id="tab-3" type="radio" name="toggle">
-            <label class="tab" for="tab-3">Pretty</label>
-            <ul class="tab-content-container">
-                <li class="tab-content">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <input class="but" id="tab-3" type="radio" name="toggle">
+            <label class="tab" for="tab-3">动漫</label>
+            <ul class="iner">
+                <li class="con">
+                    动漫是动画与漫画的合称。该词早期主要在日本动漫爱好者中使用，正式使用是动漫资讯类月刊《动漫时代》的创刊，后因其概括性强开始普及。
                     <div class="arrows">
                         <label class="back" for="tab-2">‹</label>
-                        <label class="next" for="tab-4">›	</label>
+                        <label class="next" for="tab-4">›</label>
                     </div>
                 </li>
             </ul>
         </li>
         <li>
-            <input class="tab-toggle" id="tab-4" type="radio" name="toggle">
-            <label class="tab" for="tab-4">Cool</label>
-            <ul class="tab-content-container">
-                <li class="tab-content">
-                    This is the final content for the tab example.
+            <input class="but" id="tab-4" type="radio" name="toggle">
+            <label class="tab" for="tab-4">哑剧</label>
+            <ul class="iner">
+                <li class="con">
+                    哑剧是以动作和表情表达剧情的戏剧。哑剧的历史悠久，源远流长。“哑剧”一词源出于希腊语，意思是“模仿者”。哑剧不用台词而凭借形体动作和表情表达剧情的戏剧形式。形体动作是哑剧的基本手段，它的准确性和节奏性不仅具有模仿性，还应具有内心的表现力和诗的意蕴。公元前3世纪，罗马已有哑剧演出。在英国和法国，古代丑角的无声表演多在大型戏剧演出之前进行。
                     <div class="arrows">
                         <label class="back" for="tab-3">‹</label>
-                        <label class="next" for="tab-1">›	</label>
+                        <label class="next" for="tab-1">›</label>
                     </div>
                 </li>
             </ul>

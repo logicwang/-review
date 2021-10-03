@@ -189,3 +189,6 @@ css 添加css到文件中渲染
 8. [示例](https://logicwang.github.io/job-review/demo8.html)
 [代码](https://github.com/logicwang/job-review/blob/master/demo8.html) |
 第八个实例
+9. [示例](https://logicwang.github.io/job-review/demo9.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo9.html) |
+第九个实例

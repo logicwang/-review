@@ -11,14 +11,14 @@
             background: #ccc
         }
         
-        .top-container {
+        .qwe {
             margin: 60px auto;
             padding-top: 0px;
             position: relative;
             width: 160px;
         }
         
-        .top-container .tooltip-btn {
+        .qwe .btn {
             display: block;
             margin: 0 auto;
             color: #fff;
@@ -31,12 +31,12 @@
             box-shadow: 0 5px 5px -5px #333;
         }
         
-        .top-container .tooltip-btn.tooltip-toggle:hover~.tip-content {
+        .qwe .tooltip-btn.but:hover~.cote {
             background-color: #fff;
             box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
         }
         
-        .top-container .tooltip-btn.tooltip-toggle:hover~.tooltip-content:before {
+        .qwe .opr.but:hover~.cote:before {
             content: "";
             width: 0;
             height: 0;
@@ -44,17 +44,17 @@
             border-color: transparent transparent #ffffff transparent;
         }
         
-        .top-container .tip-content,
-        .top-container .tooltip-backdrop {
+        .qwe .cote,
+        .qwe .opr {
             visibility: hidden;
         }
         
-        .top-container #tooltip-toggle {
+        .qwe #but {
             display: none;
         }
         
-        .top-container #tooltip-toggle.active~.tip-content,
-        .top-container #tooltip-toggle:checked~.tip-content {
+        .qwe #but.active~.cote,
+        .qwe #but:checked~.cote {
             opacity: 1;
             background-color: #fff;
             max-width: 400px;
@@ -70,8 +70,8 @@
             box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
         }
         
-        .top-container #tooltip-toggle.active~.tip-content:before,
-        .top-container #tooltip-toggle:checked~.tip-content:before {
+        .qwe #but.active~.cote:before,
+        .qwe #but:checked~.cote:before {
             content: "";
             border-style: solid;
             border-width: 0 10px 10px 10px;
@@ -84,11 +84,11 @@
 </head>
 
 <body>
-    <div class="top-container check">
-        <input id="tooltip-toggle" type="checkbox">
-        <label class="tooltip-btn" for="tooltip-toggle">点击他</label>
-        <label class="tooltip-backdrop" for="tooltip-toggle"></label>
-        <div class="tip-content">
+    <div class="qwe check">
+        <input id="but" type="checkbox">
+        <label class="btn" for="but">点击他</label>
+        <label class="opr" for="but"></label>
+        <div class="cote">
             <p>显示她</p>
         </div>
     </div>

@@ -7,12 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .tristate {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .tristate>input[type=radio] {
+        .aer>input[type=radio] {
             position: absolute;
             left: 0;
             top: 0;
@@ -23,7 +18,7 @@
             opacity: 0;
         }
         
-        .tristate>input[type=radio]+i {
+        .aer>input[type=radio]+i {
             position: relative;
             display: inline-block;
             width: 18px;
@@ -31,45 +26,39 @@
             vertical-align: top;
         }
         
-        .tristate>input[type=radio]+i,
-        .tristate>input[type=radio]+i:before,
-        .tristate>input[type=radio]+i:after {
+        .aer>input[type=radio]+i:after {
             transition: all 0.3s;
         }
         
-        .tristate>input[type=radio]:first-child {
+        .aer>input[type=radio]:first-child {
             z-index: 10;
         }
         
-        .tristate>input[type=radio]:first-child:checked {
-            z-index: 0;
-        }
-        
-        .tristate>input[type=radio]:checked+input[type=radio] {
+        .aer>input[type=radio]:checked+input[type=radio] {
             z-index: 10;
         }
         
-        .tristate>input[type=radio]:checked+i+label,
-        .tristate>input[type=radio]:checked+i+label+label {
+        .aer>input[type=radio]:checked+i+label,
+        .aer>input[type=radio]:checked+i+label+label {
             display: none;
         }
         
-        .tristate>input[type=radio]:checked+input[type=radio]+i+label,
-        .tristate>input[type=radio]:checked+input[type=radio]+i+label+label+label {
+        .aer>input[type=radio]:checked+input[type=radio]+i+label,
+        .aer>input[type=radio]:checked+input[type=radio]+i+label+label+label {
             display: none;
         }
         
-        .tristate>input[type=radio]:checked+input[type=radio]+input[type=radio]+i+label+label,
-        .tristate>input[type=radio]:checked+input[type=radio]+input[type=radio]+i+label+label+label {
+        .aer>input[type=radio]:checked+input[type=radio]+input[type=radio]+i+label+label,
+        .aer>input[type=radio]:checked+input[type=radio]+input[type=radio]+i+label+label+label {
             display: none;
         }
         
-        .tristate-checkbox>input[type=radio]+i {
+        .box>input[type=radio]+i {
             border: solid 2px #bdbdbd;
             border-radius: 3px;
         }
         
-        .tristate-checkbox>input[type=radio]+i:before {
+        .box>input[type=radio]+i:before {
             content: " ";
             display: block;
             position: absolute;
@@ -81,37 +70,7 @@
             border-radius: 3px;
         }
         
-        .tristate-checkbox>input[type=radio]+i:after {
-            content: " ";
-            display: block;
-            position: absolute;
-            left: 4px;
-            top: 7px;
-            color: white;
-            border-bottom: solid 3px;
-            opacity: 0;
-        }
-        
-        .tristate-checkbox>input[type=radio]:checked+i {
-            background-color: #009688;
-        }
-        
-        .tristate-checkbox>input[type=radio]:checked+i:before {
-            background-color: #009688;
-        }
-        
-        .tristate-checkbox>input[type=radio]:checked+i:after {
-            left: 1px;
-            top: 3px;
-            width: 14px;
-            height: 5px;
-            border-left: solid 3px;
-            border-bottom: solid 3px;
-            transform: rotate(-45deg);
-            opacity: 1;
-        }
-        
-        .tristate-checkbox>input[type=radio]:checked+input[type=radio]+i:after {
+        .box>input[type=radio]:checked+input[type=radio]+i:after {
             width: 10px;
             height: 0px;
             border-left: none;
@@ -120,19 +79,19 @@
             opacity: 1;
         }
         
-        .tristate-checkbox>input[type=radio]:checked+input[type=radio]+input[type=radio]+i:before {
+        .box>input[type=radio]:checked+input[type=radio]+input[type=radio]+i:before {
             opacity: 0;
             transform: scale(0);
         }
         
-        .tristate-switcher>input[type=radio] {
+        .cher>input[type=radio] {
             width: 46px;
             height: 24px;
             left: -3px;
             top: -1px;
         }
         
-        .tristate-switcher>input[type=radio]+i {
+        .cher>input[type=radio]+i {
             width: 40px;
             height: 16px;
             margin-top: 2px;
@@ -140,7 +99,7 @@
             border-radius: 8px;
         }
         
-        .tristate-switcher>input[type=radio]+i:before {
+        .cher>input[type=radio]+i:before {
             content: " ";
             position: absolute;
             top: -3px;
@@ -153,39 +112,39 @@
             box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.3);
         }
         
-        .tristate-switcher>input[type=radio]:checked+i {
+        .cher>input[type=radio]:checked+i {
             background-color: #a5d7a7;
         }
         
-        .tristate-switcher>input[type=radio]:checked+i:before {
+        .cher>input[type=radio]:checked+i:before {
             left: 19px;
             background-color: #4caf50;
         }
         
-        .tristate-switcher>input[type=radio]:checked+input[type=radio]+i:before {
+        .cher>input[type=radio]:checked+input[type=radio]+i:before {
             left: 8px;
         }
         
-        .tristate-switcher>input[type=radio]:checked+input[type=radio]+input[type=radio]+i {
+        .cher>input[type=radio]:checked+input[type=radio]+input[type=radio]+i {
             background-color: #f9a19a;
         }
         
-        .tristate-switcher>input[type=radio]:checked+input[type=radio]+input[type=radio]+i:before {
+        .cher>input[type=radio]:checked+input[type=radio]+input[type=radio]+i:before {
             background-color: #f44336;
         }
         
-        .tristate-rotate label {
+        .roe label {
             display: inline-block;
             padding-top: 3px;
             padding-left: 3px;
         }
         
-        .tristate-rotate>input[type=radio] {
+        .roe>input[type=radio] {
             width: 30px;
             height: 30px;
         }
         
-        .tristate-rotate>input[type=radio]+i {
+        .roe>input[type=radio]+i {
             width: 24px;
             height: 24px;
             margin: 5px;
@@ -194,21 +153,18 @@
             box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), inset 1px 1px 2px rgba(255, 255, 255, 0.4), inset -1px -1px 2px rgba(0, 0, 0, 0.4);
         }
         
-        .tristate-rotate>input[type=radio]+i:before {
+        .roe>input[type=radio]+i:before {
             content: " ";
-            display: block;
             position: absolute;
             left: 50%;
             top: 50%;
             width: 3px;
             height: 3px;
-            margin-left: -1px;
-            margin-top: -1px;
             border-radius: 50%;
             box-shadow: -16px 0 0 #8b8b8b, 0 -16px 0 #8b8b8b, 16px 0 0 #8b8b8b;
         }
         
-        .tristate-rotate>input[type=radio]+i:after {
+        .roe>input[type=radio]+i:after {
             content: " ";
             display: block;
             position: absolute;
@@ -220,15 +176,15 @@
             transform-origin: 12px 50%;
         }
         
-        .tristate-rotate>input[type=radio]:checked+i:after {
+        .roe>input[type=radio]:checked+i:after {
             transform: rotate(180deg);
         }
         
-        .tristate-rotate>input[type=radio]:checked+input[type=radio]+i:after {
+        .roe>input[type=radio]:checked+input[type=radio]+i:after {
             transform: rotate(90deg);
         }
         
-        .tristate-rotate>input[type=radio]:checked+input[type=radio]+input[type=radio]+i:after {
+        .roe>input[type=radio]:checked+input[type=radio]+input[type=radio]+i:after {
             transform: rotate(0deg);
         }
     </style>
@@ -236,7 +192,7 @@
 
 <body>
     <div>
-        <span class="tristate tristate-rotate">
+        <span class="aer roe">
           <input type="radio" id="item3-state-off" name="item3" value="-1" checked="">
           <input type="radio" id="item3-state-null" name="item3" value="0">
           <input type="radio" id="item3-state-on" name="item3" value="1">

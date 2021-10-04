@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        
+        .a-cont {
+            width: 300px;
+            margin: 60px auto;
+            border: 2px solid #181818;
+            border-radius: 4px;
+            box-shadow: 0 5px 5px -5px #333;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .a-cont .mca {
+            position: relative;
+            background: #fff;
+        }
+        
+        .a-cont .mca input {
+            display: none;
+        }
+        
+        .a-cont .mca .c-title {
+            padding-left: 20px;
+            height: 40px;
+            font-size: 18px;
+            line-height: 40px;
+            background: #181818;
+            color: #fff;
+            position: relative;
+            display: block;
+            cursor: pointer;
+        }
+        
+        .a-cont .mca input.active~.c-title:after,
+        .a-cont .mca input:checked~.c-title:after,
+        .a-cont .mca input:hover~.c-title:after {
+            content: "›";
+            position: absolute;
+            width: 40px;
+            font-size: 32px;
+            right: 0;
+            padding-left: 15px;
+            top: 0;
+            bottom: 0;
+            transform: rotate( 90deg);
+        }
+        
+        .a-cont .mca input.active~.b-items,
+        .a-cont .mca input:checked~.b-items {
+            height: auto;
+            max-height: 900px;
+        }
+        
+        .a-cont .mca .b-items {
+            max-height: 0;
+            height: 0;
+            margin: 0;
+            overflow: hidden;
+            transition: 0.6s ease-in;
+        }
+        
+        .a-cont ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .b-items li {
+            padding-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="a-cont radio">
+        <li class="mca">
+            <input type="radio" name="a-toggle" id="one" checked="">
+            <label for="one" class="c-title">电视剧</label>
+            <ul class="b-items">
+                <li>美剧</li>
+                <li>英剧</li>
+                <li>日剧</li>
+            </ul>
+        </li>
+        <li class="mca">
+            <input id="two" type="radio" name="a-toggle">
+            <label for="two" class="c-title">电影</label>
+            <ul class="b-items">
+                <li>国产</li>
+                <li>港片</li>
+            </ul>
+        </li>
+        <li class="mca">
+            <input id="tre" type="radio" name="a-toggle">
+            <label for="tre" class="c-title">动漫</label>
+            <ul class="b-items">
+                <li>国漫</li>
+                <li>日漫</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

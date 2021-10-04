@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轮播图</title>
+    <style>
+        .ad {
+            list-style-type: none;
+            padding: 0;
+            margin: 5px auto;
+            width: 550px;
+            height: 338px;
+            border-radius: 5px;
+            position: relative;
+            z-index: 0;
+        }
+        
+        .ad li:nth-child(1)>.dot {
+            margin-left: 40%;
+        }
+        
+        .ad .bon:checked~.sel,
+        .ad .bon.active~.sel {
+            height: 150%;
+            width: 100%;
+        }
+        
+        .ad .dot {
+            float: left;
+            cursor: pointer;
+            opacity: 1;
+            width: 12px;
+            height: 12px;
+            background: rgba(255, 255, 255, 0.5);
+            position: relative;
+            margin-top: 85%;
+            border-radius: 50%;
+            z-index: 999;
+            margin-right: 8px;
+            display: block;
+        }
+        
+        .ad .sel {
+            height: 0;
+            overflow: hidden;
+            line-height: 22px;
+            background: #000;
+            position: absolute;
+            top: 0px;
+            border-radius: 5px;
+            box-shadow: 0 5px 5px -5px #333;
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .ad .bon {
+            display: none;
+        }
+        
+        .ad .arrow.next {
+            left: 0px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .ad .arrow {
+            background: rgba(0, 0, 0, 0.5);
+            color: rgba(255, 255, 255, 0.5);
+            display: block;
+            width: 50px;
+            font-size: 68px;
+            text-align: center;
+            line-height: 495px;
+            position: absolute;
+            z-index: 9999;
+            padding-top: 176px;
+            border-radius: 2px;
+            left: 500px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="ad radio">
+        <li>
+            <input class="bon" id="slide-1" type="radio" name="c-toggle" checked="">
+            <label class="dot" for="slide-1"></label>
+            <ul class="sel">
+                <li>
+                    <img src="./图片/ 1.jpeg" style=" width: 550px;height: 510px">
+                    <label class="arrow back" for="slide-2">›</label>
+                    <label class="arrow next" for="slide-4">‹</label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="bon" id="slide-2" type="radio" name="c-toggle">
+            <label class="dot" for="slide-2"></label>
+            <ul class="sel">
+                <li>
+                    <img src="./图片/ 9.jpeg" style=" width: 550px;height:510px">
+                    <label class="arrow back" for="slide-3">›</label>
+                    <label class="arrow next" for="slide-1">‹</label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="bon" id="slide-3" type="radio" name="c-toggle">
+            <label class="dot" for="slide-3"></label>
+            <ul class="sel">
+                <li>
+                    <img src="./图片/ 13.jpeg" style=" width: 550px;height:510px">
+                    <label class="arrow back" for="slide-4">›</label>
+                    <label class="arrow next" for="slide-2">‹</label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input class="bon" id="slide-4" type="radio" name="c-toggle">
+            <label class="dot" for="slide-4"></label>
+            <ul class="sel">
+                <img src="./图片/ 11.jpeg" style=" width: 550px;height:510px">
+                <label class="arrow back" for="slide-1">›</label>
+                <label class="arrow next" for="slide-3">‹</label>
+            </ul>
+        </li>
+    </ul>
+
+</html>

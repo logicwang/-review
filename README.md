@@ -165,39 +165,39 @@ css 添加css到文件中渲染
 
 ### 3. 练习实例
 #### 3.1 实例
-1. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo1.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo1.html) |
+1. [示例](https://logicwang.github.io/job-review/demo/demo1.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo1.html) |
 第一个实例
-2. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo2.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo2.html) |
+2. [示例](https://logicwang.github.io/job-review/demo/demo2.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo2.html) |
 第二个实例
-3. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo3.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo3.html) |
+3. [示例](https://logicwang.github.io/job-review/demo/demo3.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo3.html) |
 第三个实例
-4. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo4.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo4.html) |
+4. [示例](https://logicwang.github.io/job-review/demo/demo4.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo4.html) |
 第四个实例
-5. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo5.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo5.html) |
+5. [示例](https://logicwang.github.io/job-review/demo/demo5.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo5.html) |
 第五个实例
-6. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo6.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo6.html) |
+6. [示例](https://logicwang.github.io/job-review/demo/demo6.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo6.html) |
 第六个实例
-7. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo7.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo7.html) |
+7. [示例](https://logicwang.github.io/job-review/demo/demo7.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo7.html) |
 第七个实例
-8. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo8.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo8.html) |
+8. [示例](https://logicwang.github.io/job-review/demo/demo8.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo8.html) |
 第八个实例
-9. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo9.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo9.html) |
+9. [示例](https://logicwang.github.io/job-review/demo/demo9.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo9.html) |
 第九个实例
-10. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo10.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo10.html) |
+10. [示例](https://logicwang.github.io/job-review/demo/demo10.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo10.html) |
 第十个实例
-11. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo10.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo10.html) |
+11. [示例](https://logicwang.github.io/job-review/demo/demo11.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo11.html) |
 第十个实例
-12. [示例](https://logicwang.github.io/job-review/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo10.html)
-[代码](https://github.com/logicwang/job-review/blob/master/%E7%AC%AC%E4%B8%80%E4%B8%AAdemo/demo10.html) |
+12. [示例](https://logicwang.github.io/job-review/demo/demo12.html)
+[代码](https://github.com/logicwang/job-review/blob/master/demo/demo12.html) |
 第十二个实例
